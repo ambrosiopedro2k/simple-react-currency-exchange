@@ -1,0 +1,64 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+html {
+	font-size: 62%;
+}
+body {
+  font-family: cambria, sans-serif;
+	font-size: 1.6rem;
+}
+
+#conversor, #valor-converter,
+#button, #displayValue {
+  border-radius: 3px; 	
+}
+
+#conversor {
+  max-width: 350px;
+	min-width: 132px;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	margin: 20px auto;
+	padding: 8px;
+	border: 1px solid blue;
+	font-size: 1.6rem;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.currencySelection {
+  min-width: 130px;
+	width: 75%;
+	margin: 5px 2px 8px;
+	text-align: center;
+}
+#conversor h4{
+	font-size: 1.6rem;
+}
+#conversor div strong {
+	font-size: 85%;
+}
+
+#valor-converter {
+  min-width: 74px;
+	width: 30%;
+	margin: 12px;
+	padding: 2px;
+}
+
+#button {
+width: 90px;
+	padding: 2px;
+}
+
+#displayValue {
+  height: 50px;
+  width: 30%;
+	margin-top: 12px;
+	text-align: center;
+	border: 1px solid;
+}
